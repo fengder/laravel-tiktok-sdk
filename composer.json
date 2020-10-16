@@ -1,0 +1,36 @@
+{
+    "name": "fengers/laravel-tiktok-sdk",
+    "description": "laravel tiktok  sdk",
+    "authors": [
+        {
+            "name": "fengfenqq",
+            "email": "wuqingfengdada@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "keywords": [
+        "douying",
+        "tiktok",
+        "laravel",
+        "dy"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Fengers\\TikTok\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Fengers\\TikTok\\TikTokServiceProvider"
+            ],
+            "aliases": {
+                "TikTok": "Fengers\\TikTok\\Facade\\TikTok"
+            }
+        }
+    }
+}
