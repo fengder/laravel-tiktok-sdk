@@ -33,6 +33,7 @@ class TikTokManager extends TikTok
         if($data['data']['error_code'] != 0){
             $this->erroCode = $data['data']['error_code'];
             $this->errMsg = $data['data']['description'];
+
             return false;
         }
 
@@ -52,6 +53,7 @@ class TikTokManager extends TikTok
         if($data['data']['error_code'] != 0){
             $this->erroCode = $data['data']['error_code'];
             $this->errMsg = $data['data']['description'];
+
             return false;
         }
 

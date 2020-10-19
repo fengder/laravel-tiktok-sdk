@@ -28,7 +28,7 @@ class TikTok
 
     public function __construct($params)
     {
-        $this->clientKey = $params['client_key'] ?? null;
+        $this->clientKey    = $params['client_key'] ?? null;
         $this->clientSecret = $params['client_secret'] ?? null;
     }
 
